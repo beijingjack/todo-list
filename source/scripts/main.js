@@ -19,7 +19,7 @@ const handleSubmit = (e) => {
       this.parentElement.style.display = "none";
     };
     li.onclick = function () {
-      this.style.backgroundColor = "#888"
+      this.style.backgroundColor = "#888";
       this.firstChild.style.textDecoration = "line-through";
     };
     li.appendChild(span2);

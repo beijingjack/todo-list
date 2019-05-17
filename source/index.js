@@ -7,7 +7,7 @@
 require('./html/index.html');
 
 // Stylesheets
-require('./styles/main.scss');
+require('./styles/scss/main.scss');
 
 // Scripts
 require('./scripts/main.js');

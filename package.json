@@ -8,12 +8,14 @@
     "build": "webpack",
     "dev": "webpack-dev-server --content-base dist/ --history-api-fallback --open",
     "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "build-css": "node-sass --watch source/styles/scss -o source/styles/css"
   },
   "repository": "github:uiuc-web-programming/mp1_starter",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.4.7",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",

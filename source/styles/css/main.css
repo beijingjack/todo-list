@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  justify-content: center; }
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: lightgray; }
+
+/* When clicked on, add a background color and strike out text */
+.container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .container .input-container {
+    width: 100%;
+    background-color: crimson;
+    text-align: center;
+    padding: 1vw; }
+    .container .input-container #input-bar {
+      width: 80%;
+      font-size: 16px; }
+    .container .input-container #submit-button {
+      font-size: 16px; }
+  .container .tasks-container {
+    width: 100%; }
+    .container .tasks-container #task-list {
+      margin: 0;
+      padding: 0; }
+      .container .tasks-container #task-list .item {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        font-size: large; }

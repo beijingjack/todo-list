@@ -24,7 +24,7 @@ const config = {
     module: {
         rules: [
             {
-              test: /\.jsx?/,
+              test: /\.js?/,
               exclude: [/node_modules/],
               include: APP_DIR,
               use: {
